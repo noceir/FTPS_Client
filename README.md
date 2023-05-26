@@ -51,10 +51,10 @@ AUTH TLS CAPTURE WITH WIRESHARK
 
         Catch any exceptions that occur during the file upload process and print the error message.
         
-Close the FTP connection:
+   Close the FTP connection:
 
-Use the quit method to close the FTP connection.
-Security Considerations
-FTPS provides encryption for the data transmission between the client and the server, protecting it from eavesdropping.
-Ensure that the FTP server supports FTPS and is properly configured for secure connections.
-PS* this is tested on a hostinger hosting.
+    Use the quit method to close the FTP connection.
+    Security Considerations
+    FTPS provides encryption for the data transmission between the client and the server, protecting it from eavesdropping.
+    Ensure that the FTP server supports FTPS and is properly configured for secure connections.
+### PS* this is tested on a hostinger hosting.
