@@ -1,12 +1,12 @@
 from ftplib import FTP_TLS
 
 # FTP credentials
-ftp_host = "enkryptonid.xyz"
-ftp_username = "u969378272"
-ftp_password = "Anonmcb404??"
+ftp_host = "ftp+domain"
+ftp_username = "ftp_username"
+ftp_password = "ftp_passwd"
 
 # Local file path to upload
-local_file_path = "C:\\Users\\CLOUD\Desktop\\prison\\nansen\\75465816498213d1.css"
+local_file_path = "C:\\Users\\path\\example.zip"
     
 # Destination directory on the FTP server
 destination_directory = "/public_html"
