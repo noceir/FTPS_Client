@@ -1,7 +1,7 @@
 from ftplib import FTP_TLS
 
 # FTP credentials
-ftp_host = "ftp+domain"
+ftp_host = "ftp_domain"
 ftp_username = "ftp_username"
 ftp_password = "ftp_passwd"
 
