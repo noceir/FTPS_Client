@@ -1,33 +1,33 @@
 # FTPS_Client
-Secure FTP Client Script Documentation
+# Secure FTP Client Script Documentation
 This script demonstrates how to upload a file securely to an FTP server using FTPS (FTP over SSL/TLS) in Python.
 
-Prerequisites
-Python 3.x
-ftplib module (standard library)
-Usage
-Ensure that the FTP server supports FTPS connections.
-Update the script with the appropriate FTP credentials and file paths:
-ftp_host: The hostname or IP address of the FTP server.
-ftp_username: The username for the FTP server.
-ftp_password: The password for the FTP server.
-local_file_path: The local file path of the file to upload.
-destination_directory: The destination directory on the FTP server.
-Run the script using a Python interpreter.
-Script Details
-The script follows these steps:
+- Prerequisites
+    Python 3.x
+    ftplib module (standard library)
+- Usage
+    Ensure that the FTP server supports FTPS connections.
+    Update the script with the appropriate FTP credentials and file paths:
+    ftp_host: The hostname or IP address of the FTP server.
+    ftp_username: The username for the FTP server.
+    ftp_password: The password for the FTP server.
+    local_file_path: The local file path of the file to upload.
+    destination_directory: The destination directory on the FTP server.
+-Run the script using a Python interpreter.
+# Script Details
+-The script follows these steps:
 
-Import the necessary modules:
+    Import the necessary modules:
 
-from ftplib import FTP_TLS: Import the FTP_TLS class from the ftplib module.
-Set the FTP credentials and file paths:
+    from ftplib import FTP_TLS: Import the FTP_TLS class from the ftplib module.
+    Set the FTP credentials and file paths:
 
-ftp_host: Replace with the hostname or IP address of the FTP server.
-ftp_username: Replace with the username for the FTP server.
-ftp_password: Replace with the password for the FTP server.
-local_file_path: Replace with the local file path of the file to upload.
-destination_directory: Replace with the destination directory on the FTP server.
-Establish an FTPS connection:
+    ftp_host: Replace with the hostname or IP address of the FTP server.
+    ftp_username: Replace with the username for the FTP server.
+    ftp_password: Replace with the password for the FTP server.
+    local_file_path: Replace with the local file path of the file to upload.
+    destination_directory: Replace with the destination directory on the FTP server.
+    Establish an FTPS connection:
 
 Create an instance of the FTP_TLS class with the ftp_host.
 Call the login method with ftp_username and ftp_password to authenticate.
