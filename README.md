@@ -36,7 +36,7 @@ This script demonstrates how to upload a file securely to an FTP server using FT
         Create an instance of the FTP_TLS class with the ftp_host.
         Call the login method with ftp_username and ftp_password to authenticate.
         Call the prot_p method to activate the secure data connection using SSL/TLS.
-        ![image](https://github.com/noceir/FTPS_Client/assets/134208026/39df0e63-44a8-41d3-b29b-aa443a02fb25)
+        https://github.com/noceir/FTPS_Client/assets/134208026/39df0e63-44a8-41d3-b29b-aa443a02fb25
 
         
    Upload the file:
